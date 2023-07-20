@@ -1,6 +1,7 @@
 *{
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
    
 }
 
@@ -20,10 +21,12 @@
     display: flex;
     margin-top: 5%;
     
+    
 }
 
 .nav-logo{
     display: flex;
+    margin-left: 9rem;
 }
 
 .nav-logo-name{
@@ -43,8 +46,9 @@
 }
 
 .nav-btn{
-    padding-left: 10px;
-    padding: 5px 10px;
+    
+    padding-left: 1rem;
+    padding: 5px;
     border-radius: 5px;
     border: none;
 }
@@ -52,9 +56,12 @@
 ul li{
     
     display: inline-flex;
+    
+    
 }
 
 ul li a{
+    
     margin-right: 50px;
     text-decoration: none;
     color: #3C354F;
@@ -64,6 +71,7 @@ ul li a{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-left: 2rem;
 }
 
 
@@ -176,7 +184,7 @@ ul li a{
 
 
 .banner-img{
-   width: .70rem;
+   width: 35rem;
    height: 2rem;
    flex-shrink: 0;
    margin-right: 40rem;
@@ -205,6 +213,11 @@ ul li a{
  
 }
 
+img {
+	max-width: 100%; /* Restrict image width to prevent extra space */
+	height: auto; /* Maintain aspect ratio */
+}
+
 .cards-color-title{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
@@ -229,20 +242,24 @@ line-height: 1.875rem; /* 166.667% */
 
 }
 
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
 .cards-container{
-    display: flex;
+    display: grid ;
     border-radius: 1rem;
     margin-top: 100px;
-   
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
     
    
-    
-    
-    
+       
 }
 
 .cards-title{
-    width: 21.375rem;
+    /* width: 21.375rem; */
     color: #534C64;
 font-family: Work Sans;
 font-size: 1.25rem;
@@ -258,3 +275,180 @@ margin-top: 15px;
 
 
 /*cards section end*/
+
+
+/*second banner section start*/
+
+
+.second-banner-container{
+    display: flex;
+}
+
+.second-banner-text{
+    margin-left: 18rem;
+    margin-top: 20rem;
+}
+
+.second-banner-title{
+    font-family: Work Sans;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.75rem; /* 125% */
+
+}
+
+.sbt-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.second-banner-description{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.875rem; /* 166.667% */
+
+}
+
+.second-banner-img-container{
+
+    margin-top: 10rem;
+    
+}
+
+.img-1{
+    position: relative;
+    margin-left: 12rem;
+}
+
+.img-2{
+    position: absolute;
+    bottom: -102rem;
+    right: 24rem;
+}
+
+
+
+/*second banner section end */
+
+
+
+
+/* Games icon section start */
+
+
+.games-icon-container{
+    margin-top: 20rem;
+    
+}
+
+.games-icon-1{
+    margin-left: 8.5rem;
+    margin-bottom: 5rem;
+    
+    
+}
+
+.games-icon-2{
+    margin-left: 13rem;
+   
+}
+
+.btn-icon{
+    display: inline-flex;
+    padding: 0.40rem 1rem;
+    border-radius: 8rem;
+    border: none;
+    gap: 1rem;
+}
+
+.games-icon-title{
+   margin-top: 1.5rem;
+   
+}
+
+
+
+/* Games icon section end */
+
+
+
+
+/* footer section start */
+
+
+.footer-container{
+    background-color:#0B0223 ;
+    
+}
+
+.footer-items{
+    margin-top: 10rem;
+}
+
+.footer-logo{
+    display: flex;
+    margin-left: 25rem;
+   padding: 5rem ;
+    
+}
+
+.footer-logo-text{
+    font-family: Work Sans;
+font-size: 2.8125rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #FFF;
+
+
+}
+
+
+
+.footer-logo-color{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+ul li{
+    color: #FFF;
+    margin-right: 3rem;
+
+    
+}
+
+.footer-bottom-line{
+    color: #FFF;
+    margin-left: 26rem;
+    
+}
+
+.footer-icon{
+    margin-left: 33rem;
+    margin-bottom: 3rem;
+    
+}
+
+.footer-words{
+    margin-left: 20rem;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+/* footer section end */
+
+
+
