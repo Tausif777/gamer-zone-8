@@ -1,6 +1,7 @@
 *{
     margin: 0 auto;
     padding: 0 auto;
+   
 }
 
 /*nav section start*/
@@ -94,12 +95,12 @@ ul li a{
    color: #0B0223;
    text-align: center;
    font-family: Work Sans;
-   font-size: 2rem;
+   font-size: 2.3rem;
    font-style: normal;
    font-weight: 600;
    line-height: normal;
    text-transform: uppercase;
-   margin-right: 8rem;
+   margin-right: 5rem;
    padding-top: 10rem;
 
 }
@@ -150,7 +151,7 @@ ul li a{
    border-radius: 3rem;
    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
    border: none;
-   margin-left: 8rem;
+   margin-left: 8.5rem;
    margin-top: 2rem;
 
 }
@@ -170,6 +171,7 @@ ul li a{
    border-radius: 3rem;
    background: #4EC5F7;
    border: none;
+   margin-left: .5rem;
 }
 
 
@@ -186,3 +188,73 @@ ul li a{
 
 
 /*Banner section end*/
+
+
+/*cards section start*/
+
+.cards-header{
+    color: #0B0223;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+ 
+}
+
+.cards-color-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.cards-description{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.875rem; /* 166.667% */
+
+}
+
+.cards-container{
+    display: flex;
+    border-radius: 1rem;
+    margin-top: 100px;
+   
+    
+   
+    
+    
+    
+}
+
+.cards-title{
+    width: 21.375rem;
+    color: #534C64;
+font-family: Work Sans;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.875rem; /* 150% */
+margin-top: 15px;
+
+}
+
+
+
+
+
+/*cards section end*/
