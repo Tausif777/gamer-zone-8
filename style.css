@@ -1,5 +1,6 @@
 *{
     margin: 0 auto;
+    padding: 0 auto;
 }
 
 /*nav section start*/
@@ -56,13 +57,132 @@ ul li a{
     margin-right: 50px;
     text-decoration: none;
     color: #3C354F;
-text-align: center;
-font-family: Work Sans;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 
 /*nav section end*/
+
+
+/*Banner section start*/
+
+
+
+.banner-container{
+    display: flex;
+    
+}
+
+
+
+
+.banner-text{
+    background-image: url('images/Group\ 14.png');
+    width: 40rem;
+    height: 43.75rem;
+    flex-shrink: 0;
+    margin-left: 0.01rem;
+    
+}
+
+.banner-title-1{
+   color: #0B0223;
+   text-align: center;
+   font-family: Work Sans;
+   font-size: 2rem;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   text-transform: uppercase;
+   margin-right: 8rem;
+   padding-top: 10rem;
+
+}
+
+.banner-title-2{
+   text-align: center;
+   font-family: Work Sans;
+   font-size: 4.9375rem;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+   text-transform: uppercase;
+   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-right: 4.5rem;
+   margin-top: 1rem;
+
+}
+
+.banner-list{
+   color: #534C64;
+   margin-left: 8.5rem;
+   font-family: Work Sans;
+   font-size: 1rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   text-transform: lowercase;
+   margin-top: 1rem;
+   
+
+}
+
+.btn-1{
+   color: #FFF;
+   font-family: Work Sans;
+   font-size: 0.70rem;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   text-transform: uppercase;
+   display: inline-flex;
+   padding: 1rem 2rem;
+   align-items: flex-start;
+   gap: 0.625rem;
+   border-radius: 3rem;
+   background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+   border: none;
+   margin-left: 8rem;
+   margin-top: 2rem;
+
+}
+
+.btn-2{
+    color: #FFF;
+   font-family: Work Sans;
+   font-size: 0.70rem;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   text-transform: uppercase;
+   display: inline-flex;
+   padding: 1rem 2rem;
+   align-items: flex-start;
+   gap: 0.625rem;
+   border-radius: 3rem;
+   background: #4EC5F7;
+   border: none;
+}
+
+
+.banner-img{
+   width: .70rem;
+   height: 2rem;
+   flex-shrink: 0;
+   margin-right: 40rem;
+   
+}
+
+
+
+
+
+/*Banner section end*/
