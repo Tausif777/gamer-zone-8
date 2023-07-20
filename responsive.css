@@ -1,0 +1,13 @@
+@media screen and (max-width:576px) {
+
+    .nav-items{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    ul li{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
